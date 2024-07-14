@@ -12,6 +12,7 @@ public class ticTacToe {
         char player='X';
         boolean gameOver=false;
 
+        //until the game over
         while(!gameOver) {
             System.out.println("Player "+player+" play : ");
             printBoard(board);
